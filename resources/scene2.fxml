@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="sceneViewItems" prefHeight="340.0" prefWidth="735.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.barcode.EditController">
+   <children>
+      <Button layoutX="651.0" layoutY="292.0" mnemonicParsing="false" onAction="#closViewItems" prefHeight="34.0" prefWidth="70.0" text="Close" />
+      <TableView fx:id="tableView" prefHeight="280.0" prefWidth="735.0">
+        <columns>
+          <TableColumn fx:id="barcodeID" onEditCommit="#editBarcode" prefWidth="314.0" text="Barcode" />
+          <TableColumn fx:id="productID" minWidth="0.0" onEditCommit="#editProduct" prefWidth="195.0" text="Product" />
+            <TableColumn fx:id="quantityID" minWidth="0.0" onEditCommit="#editQuantity" prefWidth="119.0" text="Quantity" />
+            <TableColumn fx:id="priceID" minWidth="0.0" onEditCommit="#editPrice" prefWidth="104.0" text="Price" />
+        </columns>
+      </TableView>
+      <Button layoutX="22.0" layoutY="292.0" mnemonicParsing="false" onAction="#DeleteItem" prefHeight="34.0" prefWidth="63.0" text="Delete" />
+      <TextField fx:id="searchField" layoutX="268.0" layoutY="298.0" prefHeight="24.0" prefWidth="199.0" />
+      <Label layoutX="213.0" layoutY="298.0" prefHeight="25.0" prefWidth="55.0" text="Search">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
