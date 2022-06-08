@@ -1,13 +1,21 @@
-# barcode scanner
-main fucntions:
-add items and adds them in a txt docuemnt for data persistence,
-edit items by clicking the selected table cell,
-sell items by scanning the barcode,
-calculates the scanned products sum price,
-subtracts the sold items from the stock column,
-has a search function,
-GUI made with javaFX 16 so librariy is requried
+## Barcode scanner
 
+This is my first programming project written in java using javaFX.
+The objective of this project is to get the "grasp" of the logic of how to code: 
+- conditionals
+- iteration
+- variable types
+- read/write from/to file
+- string manipulation
+- data persistence to text file
 
- 
+This software will: 
+- add items in a list by scanning  the barcode and filling up its information in the given field
+- update/edit the amount and price of an item and save it in the text file for data persistence
+- remove an item
+- list all items in a table
+- search by typing an item name or any other data of the different columns
+
+This project won't be updated as it is just a point of reference to track my progress and improvements over time.
+
  
