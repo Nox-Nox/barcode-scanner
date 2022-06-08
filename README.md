@@ -8,6 +8,7 @@ The objective of this project is to get the "grasp" of the logic of how to code:
 - read/write from/to file
 - string manipulation
 - data persistence to text file
+- create class of an object
 
 This software will: 
 - add items in a list by scanning  the barcode and filling up its information in the given field
